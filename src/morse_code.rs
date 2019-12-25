@@ -1,3 +1,6 @@
+//* Kata: https://www.codewars.com/kata/decode-the-morse-code
+//* Kata: https://www.codewars.com/kata/decode-the-morse-code-advanced
+
 use std::collections::HashMap;
 
 lazy_static! {

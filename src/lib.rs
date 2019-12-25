@@ -3,4 +3,6 @@
 #[macro_use]
 extern crate lazy_static;
 
-mod morse_code;
+pub mod int_partitions;
+pub mod morse_code;
+pub mod sum_by_factors;

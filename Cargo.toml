@@ -5,3 +5,10 @@ name = "codewars"
 version = "0.1.0"
 [dependencies]
 lazy_static = "*"
+
+[dev-dependencies]
+criterion = "*"
+
+[[bench]]
+name = "codewars_bench"
+harness = false
