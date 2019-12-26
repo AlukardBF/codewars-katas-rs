@@ -3,12 +3,16 @@ authors = ["Dmitriy Holkin <alukard.develop@gmail.com>"]
 edition = "2018"
 name = "codewars"
 version = "0.1.0"
+[[bench]]
+harness = false
+name = "codewars_bench"
+
 [dependencies]
+divrem = "*"
+indexmap = "*"
+integer-sqrt = "*"
 lazy_static = "*"
+maplit = "*"
 
 [dev-dependencies]
 criterion = "*"
-
-[[bench]]
-name = "codewars_bench"
-harness = false
